@@ -63,7 +63,6 @@ const checkForWinner = () => {
 
     currentPlayer = currentPlayer === 'X' ? 'O' : 'X';
 };
-
 const resetGame = () => {
     board = ['', '', '', '', '', '', '', '', ''];
     isGameActive = true;
